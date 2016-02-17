@@ -6,4 +6,22 @@ var body = document.querySelector("body");
 body.onkeydown = function(e){
     //e.keyCode - will capture the key codes
     //displayMessage(e.keyCode);
-};
+}
+
+var keyCodeName = function(keyCode){
+	if (keyCode === 40) {
+		return "down";	
+	}
+	else if(keyCode === 38){
+		return "up";
+	}
+		else if(keyCode === 37){
+			return "left";
+		}
+			else if(keyCode === 39){
+				return "right";
+			}
+	else{
+		return "";
+	}
+}
