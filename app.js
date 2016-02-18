@@ -5,7 +5,7 @@ var body = document.querySelector("body");
 //listen for the keydown event
 body.onkeydown = function(e){
     //e.keyCode - will capture the key codes
-    //displayMessage(e.keyCode);
+    displayMessage(e.keyCode);
 }
 
 var keyCodeName = function(keyCode){
@@ -24,4 +24,10 @@ var keyCodeName = function(keyCode){
 	else{
 		return "";
 	}
+}
+
+var createLotiotionClass = function(){
+
+
+
 }
